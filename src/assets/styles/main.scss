@@ -10,5 +10,9 @@
 .ui-content {
   width: 100%;
   max-width: 1600px;
-  margin: 0 160px;
+  margin: 0 50px;
+
+  @media screen and (min-width: $hd-break) {
+    margin: 0 160px;
+  }
 }

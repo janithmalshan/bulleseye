@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04985a96-19da-49af-8c67-9174d680b57c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/ic-guarantee.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HomeElements/Giveaways.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HomeElements/Guarantee.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HomeElements/HowItWorks.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HomeElements/Main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HomeElements/SlideShow.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HomeElements/Subscribe.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HomeElements/Subscription.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/ic-footer-fb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/ic-footer-insta.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/ic-footer-printrst.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/ic-footer-youtube.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/variable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606490768553</updated>
       <workItem from="1606490770043" duration="1530000" />
-      <workItem from="1606492439900" duration="6873000" />
+      <workItem from="1606492439900" duration="17236000" />
     </task>
     <servers />
   </component>

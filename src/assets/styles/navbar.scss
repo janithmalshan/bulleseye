@@ -2,66 +2,114 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: $navbar;
-  background-color: transparent;
+  height: $navbar-mobile;
+  background-color: $color-primary;
   margin: auto;
-  padding: 0 160px 0 100px;
+  padding: 0 30px 0 20px;
   box-sizing: content-box;
   width: -webkit-fill-available;
   z-index: 1;
 
   &__logo {
-    height: 120px;
+    height: 60px;
+    z-index: 9;
 
     img {
+      height: 60px;
+      margin-top: 15px;
+
+      @media screen and (min-width: $mobile-break) {
+        height: 80px;
+      }
+
+      @media screen and (min-width: $hd-break) {
+        height: 120px;
+        margin-top: 25px;
+      }
+    }
+
+    @media screen and (min-width: $mobile-break) {
+      height: 80px;
+    }
+
+    @media screen and (min-width: $hd-break) {
       height: 120px;
-      margin-top: 25px;
     }
   }
 
   &__btn {
-    background-color: $color-primary;
-    height: 45px;
+    background-color: $color-secondary;
+    height: 40px;
+    width: 140px;
     border-radius: 8px;
     outline: none;
     border: none;
-    font-size: 18px;
+    font-size: 12px;
     font-family: $font-stack;
     color: #FFFFFF;
-    font-weight: 500;
+    font-weight: 700;
     padding: 0 15px;
     min-width: 100px;
-    margin-left: 0px;
+    margin-right: auto;
     box-sizing: border-box;
-    line-height: 44px;
+    line-height: 1.2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     -webkit-transition: background-color 400ms ease;
     transition: background-color 400ms ease;
 
     &:hover {
       cursor: pointer;
-      background-color: $color-primary;
+      background-color: $color-secondary-dark;
     }
 
     @media screen and (min-width: $mobile-break) {
+      margin-right: 10px;
+    }
+
+    @media screen and (min-width: $hd-break) {
       margin-left: 30px;
+      margin-right: 30px;
+      font-size: 16px;
+      height: 60px;
+      width: 200px;
+      line-height: 60px;
+    }
+  }
+
+  &__guarantee {
+    height: 56px;
+    position: absolute;
+    right: 85px;
+
+    @media screen and (min-width: $mobile-break) {
+      position: relative;
+      right: unset;
+    }
+
+    @media screen and (min-width: $hd-break) {
+      height: 80px;
     }
   }
 
   &__menu {
     box-sizing: border-box;
     display: none;
-    background-color: #FFFFFFf2;
+    flex: 1;
+    justify-content: flex-end;
 
     &.active-mobile {
+      background-color: #1A1F23f2;
       display: flex;
       position: absolute;
       width: 100%;
-      top: 82px;
+      top: 70px;
       left: 0;
       flex-direction: column;
       padding: 0 10% 60px;
-      z-index: 999;
+      z-index: 1;
 
       @media screen and (min-width: $mobile-break) {
         display: flex;
@@ -102,10 +150,10 @@
 
     &-link {
       font-family: $font-stack;
-      color: $color-text-default;
-      font-size: 18px;
-      font-weight: 500;
-      margin: 0 30px;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 400;
+      margin: 0 10px;
       text-align: center;
       padding: 15px 2px;
       -webkit-transition: color 400ms ease;
@@ -113,7 +161,20 @@
 
       &:hover {
         cursor: pointer;
-        color: $color-primary;
+        color: #f0f0f0;
+      }
+
+      &:last-of-type {
+        margin-right: 20px;
+
+        @media screen and (min-width: $hd-break) {
+          margin-right: 80px;
+        }
+      }
+
+      @media screen and (min-width: $hd-break) {
+        font-size: 16px;
+        margin: 0 40px;
       }
     }
 
@@ -124,6 +185,12 @@
   }
 
   @media screen and (min-width: $mobile-break) {
-    max-width: $viewport;
+    //padding: 0 60px 0 40px;
+    //background-color: #ff00ff;
+  }
+
+  @media screen and (min-width: $hd-break) {
+    height: $navbar;
+    padding: 0 160px 0 100px;
   }
 }

@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import menu from "../assets/images/ic-menu.svg";
 import logo from "../assets/images/logo.svg";
+import iconGuarantee from "../assets/images/ic-guarantee.svg";
 
 export class Navbar extends Component {
     constructor(props) {
@@ -24,6 +25,7 @@ export class Navbar extends Component {
                     <NavLink href="/" link="Weekly Giveaways"/>
                     <NavLink href="/" link="Help"/>
                 </div>
+                <img className="ui-navbar__guarantee" src={iconGuarantee} alt="guarantee"/>
                 <button className="ui-navbar__menu-btn" onClick={() => this.setState({active: !this.state.active})}><img
                     src={menu} alt="menu"/></button>
             </header>

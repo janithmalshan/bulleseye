@@ -1,35 +1,46 @@
 import React from "react";
 import logo from "../assets/images/logo-footer.svg"
+import {UiContentWrapper} from "./GridLayout";
+import footerFb from "../assets/images/ic-footer-fb.svg"
+import footerInsta from "../assets/images/ic-footer-insta.svg"
+import footerPrintrst from "../assets/images/ic-footer-printrst.svg"
+import footerYou from "../assets/images/ic-footer-youtube.svg"
 
 export const Footer = () => {
     return (
         <footer className="ui-footer">
             <div className="ui-footer__inner">
-                <div>
-                    <img className="ui-footer__logo" src={logo} alt="Prestau"/>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                    </p>
-                </div>
-                <div className="ui-footer__grid">
-                    <div>
-                        <h3>Service</h3>
-                        <FooterLink href="/" link="App"/>
-                        <FooterLink href="/" link="Coding"/>
-                        <FooterLink href="/" link="Documentation"/>
+                <UiContentWrapper>
+                    <div className="ui-footer__grid">
+                        <div>
+                            <img className="ui-footer__logo" src={logo} alt="Prestau"/>
+                            <p>
+                                Copyright © {(new Date().getFullYear())} BullsEye. All Rights Reserved.
+                            </p>
+                        </div>
+                        <div>
+                            <FooterLink href="/" link="How It Works"/>
+                            <FooterLink href="/" link="Meet Bullseye"/>
+                            <FooterLink href="/" link="PetSmart Charities"/>
+                        </div>
+                        <div>
+                            <FooterLink href="/" link="Weekly Giveaways"/>
+                            <FooterLink href="/" link="Money-back Guarantee"/>
+                            <FooterLink href="/" link="Help"/>
+                        </div>
+                        <div>
+                            <FooterLink href="/" link="Money-back Guarantee"/>
+                            <FooterLink href="/" link="Privacy Policy"/>
+                        </div>
+                        <div>
+                            <h3>FOLLOW US ON</h3>
+                            <a href={'#'} target="_blank"><img src={footerFb}/></a>
+                            <a href={'#'} target="_blank"><img src={footerInsta}/></a>
+                            <a href={'#'} target="_blank"><img src={footerPrintrst}/></a>
+                            <a href={'#'} target="_blank"><img src={footerYou}/></a>
+                        </div>
                     </div>
-                    <div>
-                        <h3>Contact Us</h3>
-                        <FooterLink href="/" link="Email"/>
-                        <FooterLink href="/" link="Phone"/>
-                    </div>
-                    <div>
-                        <h3>Company</h3>
-                        <FooterLink href="/" link="About"/>
-                        <FooterLink href="/" link="Privacy Policy"/>
-                        <FooterLink href="/" link="Careers"/>
-                    </div>
-                </div>
+                </UiContentWrapper>
             </div>
         </footer>
     )
