@@ -1,0 +1,129 @@
+.ui-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: $navbar;
+  background-color: transparent;
+  margin: auto;
+  padding: 0 160px 0 100px;
+  box-sizing: content-box;
+  width: -webkit-fill-available;
+  z-index: 1;
+
+  &__logo {
+    height: 120px;
+
+    img {
+      height: 120px;
+      margin-top: 25px;
+    }
+  }
+
+  &__btn {
+    background-color: $color-primary;
+    height: 45px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-family: $font-stack;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 0 15px;
+    min-width: 100px;
+    margin-left: 0px;
+    box-sizing: border-box;
+    line-height: 44px;
+    text-align: center;
+    -webkit-transition: background-color 400ms ease;
+    transition: background-color 400ms ease;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $color-primary;
+    }
+
+    @media screen and (min-width: $mobile-break) {
+      margin-left: 30px;
+    }
+  }
+
+  &__menu {
+    box-sizing: border-box;
+    display: none;
+    background-color: #FFFFFFf2;
+
+    &.active-mobile {
+      display: flex;
+      position: absolute;
+      width: 100%;
+      top: 82px;
+      left: 0;
+      flex-direction: column;
+      padding: 0 10% 60px;
+      z-index: 999;
+
+      @media screen and (min-width: $mobile-break) {
+        display: flex;
+        position: relative;
+        width: auto;
+        top: unset;
+        left: unset;
+        flex-direction: unset;
+        padding: 0;
+      }
+    }
+
+    &-btn {
+      margin-right: -8px;
+      padding: 8px;
+      display: inline-flex;
+      border-radius: 50%;
+      outline: none;
+      border: 0;
+      background-color: transparent;
+      -webkit-transition: background-color 600ms ease;
+      transition: background-color 600ms ease;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #F0F0F0b3;
+      }
+
+      img {
+        width: 24px;
+        height: 24px;
+      }
+
+      @media screen and (min-width: $mobile-break) {
+        display: none;
+      }
+    }
+
+    &-link {
+      font-family: $font-stack;
+      color: $color-text-default;
+      font-size: 18px;
+      font-weight: 500;
+      margin: 0 30px;
+      text-align: center;
+      padding: 15px 2px;
+      -webkit-transition: color 400ms ease;
+      transition: color 400ms ease;
+
+      &:hover {
+        cursor: pointer;
+        color: $color-primary;
+      }
+    }
+
+    @media screen and (min-width: $mobile-break) {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  @media screen and (min-width: $mobile-break) {
+    max-width: $viewport;
+  }
+}

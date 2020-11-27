@@ -1,0 +1,14 @@
+.ui-main {
+  position: relative;
+  flex: 1;
+
+  @media screen and (min-width: $mobile-break) {
+    background-color: #329B83;
+  }
+}
+
+.ui-content {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 160px;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700;800&display=swap');
+@import "variable.scss";
+@import "grid.scss";
+@import "typo.scss";
+@import "navbar.scss";
+@import "main";
+@import "footer.scss";
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: chocolate;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}

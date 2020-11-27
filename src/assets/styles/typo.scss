@@ -1,0 +1,64 @@
+h1, h2, h3, h4, p, a, ul, li, label {
+  margin: 0;
+  padding: 0;
+  font-family: $font-stack;
+  text-decoration: none;
+}
+
+/**Baloo Chettan 2
+  regular 400
+  medium 500
+  semi bold 600
+  bold 700
+**/
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: $color-text-default;
+  line-height: 35px;
+}
+
+h2 {
+  font-size: 21px;
+  font-weight: 700;
+  color: $color-text-default;
+  line-height: 31px;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: $color-text-default;
+  line-height: 20px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  color: $color-text-default;
+  line-height: 24px;
+  opacity: 0.7;
+}
+
+@media screen and (min-width: $mobile-break) {
+  h1 {
+    font-size: 48px;
+    line-height: 62px;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  h3 {
+    font-size: 21px;
+    line-height: 31px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
