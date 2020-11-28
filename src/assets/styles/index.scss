@@ -4,8 +4,16 @@
 @import "grid.scss";
 @import "typo.scss";
 @import "navbar.scss";
-@import "main";
+@import "common";
 @import "footer.scss";
+@import "main";
+@import "how-works";
+@import "slideshow";
+@import "subscription";
+@import "giveaway";
+@import "guarantee";
+@import "subscribe";
+@import "contact";
 
 body {
   margin: 0;
@@ -27,4 +35,9 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+img:focus {
+  outline: none;
+  border: 0;
 }

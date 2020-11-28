@@ -1,0 +1,69 @@
+.ui-mainsec-contact {
+  display: flex;
+  background-color: $color-primary;
+}
+
+.ui-contact {
+  margin: 60px auto 80px;
+  max-width: 812px;
+  text-align: center;
+  width: 80%;
+
+  h1 {
+    color: #F8F9F9;
+    font-size: 30px;
+    font-family: $font-stack-2;
+    font-weight: 800;
+  }
+
+  p {
+    font-size: 16px;
+    color: #F8F9F9;
+    opacity: 0.85;
+  }
+
+  &__form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    padding: 50px 0 60px;
+    text-align: left;
+
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 2 / 1 / 3 / 3; }
+
+    label {
+      display: block;
+      font-size: 22px;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin: 30px 0 20px;
+    }
+
+    .ui-input {
+      min-height: 50px;
+      padding: 18px 30px;
+      border-radius: 5px;
+      border: 1px solid #848587;
+      background-color: $color-primary;
+      font-size: 16px;
+      color: #F8F9F9;
+      max-width: 100%;
+      box-sizing: border-box;
+      min-width: 100%;
+      font-family: $font-stack;
+
+      @media screen and (min-width: $mobile-break) {
+        min-height: 80px;
+        padding: 28px 30px;
+      }
+    }
+  }
+
+  @media screen and (min-width: $mobile-break) {
+    margin: 110px auto 160px;
+  }
+}

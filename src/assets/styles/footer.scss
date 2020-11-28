@@ -1,6 +1,6 @@
 .ui-footer {
   position: relative;
-  background: $color-primary;
+  background: $color-primary-dark;
   width: 100%;
   box-sizing: border-box;
 
@@ -33,11 +33,6 @@
     color: #FFFFFF;
   }
 
-  a {
-    padding: 10px 20px 10px 10px;
-    display: inline-block;
-  }
-
   &__link {
     font-family: $font-stack;
     font-size: 16px;
@@ -56,6 +51,11 @@
     display: flex;
     margin: auto;
     justify-content: center;
+  }
+
+  a:not(.ui-footer__link) {
+    padding: 10px 20px 10px 10px;
+    display: inline-block;
   }
 
   @media screen and (min-width: $mobile-break) {

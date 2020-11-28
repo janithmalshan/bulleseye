@@ -1,0 +1,52 @@
+.ui-main {
+  position: relative;
+  flex: 1;
+
+  @media screen and (min-width: $mobile-break) {
+    background-color: #329B83;
+  }
+}
+
+.ui-content {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 50px;
+
+  @media screen and (min-width: $hd-break) {
+    margin: 0 160px;
+  }
+}
+
+.ui-btn {
+  background-color: $color-secondary;
+  height: 40px;
+  min-width: 140px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-family: $font-stack;
+  color: #FFFFFF;
+  font-weight: 700;
+  padding: 0 15px;
+  min-width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  line-height: 1.2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-transition: background-color 400ms ease;
+  transition: background-color 400ms ease;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $color-secondary-dark;
+  }
+  @media screen and (min-width: $hd-break) {
+    height: 60px;
+    min-width: 200px;
+  }
+}
