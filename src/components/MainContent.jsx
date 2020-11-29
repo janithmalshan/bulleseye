@@ -2,6 +2,9 @@ import React, {Component} from "react";
 import {UiMainWrapper} from "./GridLayout";
 import {Contact} from "./HomeElements/Contact";
 import {Subscription} from "./HomeElements/Subscription";
+import {Subscribe} from "./HomeElements/Subscribe";
+import {Guarantee} from "./HomeElements/Guarantee";
+import {Giveaways} from "./HomeElements/Giveaways";
 
 export class MainContent extends Component {
     constructor(props) {
@@ -31,6 +34,9 @@ export class MainContent extends Component {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </section>
                 <Subscription/>
+                <Giveaways/>
+                <Guarantee/>
+                <Subscribe/>
                 <Contact/>
             </UiMainWrapper>
         )

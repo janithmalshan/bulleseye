@@ -1,0 +1,150 @@
+.ui-main__sec-subscribe {
+  display: flex;
+  background-color: #F8F9F9;
+  padding: 30px 0 40px;
+
+  .ui-subscribe {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 5px;
+    box-sizing: border-box;
+
+    h1 {
+      color: #1A1F23;
+      font-size: 30px;
+      font-family: $font-stack-2;
+      font-weight: 800;
+      margin: auto;
+      text-align: center;
+    }
+
+    p {
+      font-size: 22px;
+      color: #FF6E3A;
+      font-weight: 800;
+      margin: auto;
+      text-align: center;
+    }
+
+    .ui-input {
+      width: 80%;
+      max-width: 500px;
+      height: 50px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      border: 1px solid #D0D8E2;
+      padding: 0 16px;
+      margin: 25px auto 40px;
+      display: block;
+      font-size: 16px;
+      font-family: $font-stack;
+
+      &::placeholder {
+        color: #BAC0C5;
+      }
+
+      &:focus {
+        border-color: #C7CCCF;
+        outline: none;
+      }
+    }
+
+    &__wr {
+      display: grid;
+      grid-template-columns: 1fr;
+
+      &-item {
+        flex: 1;
+        border: 1px solid #D0D8E2;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        background-color: #FFFFFF;
+        position: relative;
+        margin-bottom: 20px;
+        border-radius: 25px;
+        text-align: center;
+
+        h1 {
+          font-size: 36px;
+          color: $color-text-default;
+          font-family: $font-stack-2;
+          font-weight: 800;
+          line-height: 50px;
+        }
+
+        h2 {
+          font-size: 18px;
+          color: #C7CCCF;
+          font-family: $font-stack-2;
+          font-weight: 400;
+          text-align: center;
+          line-height: 20px;
+          text-decoration: line-through;
+          padding-bottom: 10px;
+        }
+
+        p {
+          font-size: 16px;
+          color: $color-text-default;
+          font-family: $font-stack;
+          font-weight: 600;
+          line-height: 26px;
+          margin-top: 16px;
+
+          &:last-of-type {
+            margin-bottom: 10px;
+          }
+        }
+
+        .ui-btn-paypal {
+          display: inline-block;
+          height: 55px;
+          width: 280px;
+          background-image: url("../images/ic-subscribe-paypal.svg");
+          background-repeat: no-repeat;
+          cursor: pointer;
+          box-sizing: border-box;
+          padding: 0;
+          border: 0;
+          border-radius: 30px;
+          background-size: cover;
+          margin-top: 30px;
+        }
+
+        .ui-label-icon {
+          position: absolute;
+          top: 5%;
+          right: 0;
+          height: 40px;
+        }
+
+        @media screen and (min-width: $mobile-break) {
+          margin-bottom: 50px;
+          padding: 50px;
+          text-align: left;
+
+          h1, h2, p {
+            text-align: left;
+          }
+
+          .ui-btn-paypal {
+            margin-top: 50px;
+            margin-left: -5px;
+            margin-right: -5px;
+          }
+        }
+      }
+
+      @media screen and (min-width: $mobile-break) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 50px;
+      }
+    }
+  }
+
+  @media screen and (min-width: $mobile-break) {
+    padding: 100px 0 120px;
+  }
+}
