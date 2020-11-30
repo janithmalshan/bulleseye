@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04985a96-19da-49af-8c67-9174d680b57c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/ic-deal-50.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/ic-deal-65.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/ic-subscribe-iconset.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/ic-subscribe-paypal.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-guarantee.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-subscribe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/ic-petcharity.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/img-giveaway.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/img-subs-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/img-subs-2.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_guarantee.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_guarantee.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_subscribe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_subscribe.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/_giveaway.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_giveaway.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/_subscription.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_subscription.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Guarantee.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Guarantee.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Subscribe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Subscribe.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Giveaways.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Giveaways.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Subscription.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Subscription.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +82,7 @@
       <workItem from="1606490770043" duration="1530000" />
       <workItem from="1606492439900" duration="22278000" />
       <workItem from="1606554685872" duration="177000" />
-      <workItem from="1606683098560" duration="8242000" />
+      <workItem from="1606683098560" duration="11912000" />
     </task>
     <servers />
   </component>

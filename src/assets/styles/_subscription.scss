@@ -1,3 +1,88 @@
 .ui-main__sec-subscription {
-  background-color: #88F9F9;
+  background-color: #FFFFFF;
+  background-image: url("../images/img-subs-1.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-x: 1%;
+  position: relative;
+  padding: 30px 0 50px;
+
+  .ui-subscription {
+    width: 70%;
+    min-height: 400px;
+    max-width: 580px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      font-size: 32px;
+      color: $color-text-default;
+      font-family: $font-stack-2;
+      font-weight: 800;
+      line-height: 30px;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 16px;
+      color: $color-text-default;
+      font-family: $font-stack;
+      font-weight: 600;
+      line-height: 36px;
+      margin-top: 40px;
+      text-align: left;
+    }
+
+    a {
+      text-decoration: none;
+      font-size: 16px;
+      font-family: $font-stack;
+      color: #0E1791;
+      font-weight: 600;
+      cursor: pointer;
+
+      &:hover {
+        color: $color-text-default
+      }
+    }
+
+    .img {
+      height: 80px;
+      margin-bottom: 40px;
+    }
+  }
+
+  @media screen and (min-width: $mobile-break) {
+    padding: 100px 0 110px;
+
+    &::after {
+      content: '';
+      display: table;
+      position: absolute;
+      bottom: 0;
+      right: 1%;
+      background-image: url("../images/img-subs-2.svg");
+      background-repeat: no-repeat;
+      background-position: bottom;
+      height: 323px;
+      width: 480px;
+    }
+  }
+
+  @media screen and (min-width: $hd-break) {
+    padding: 120px 0 150px;
+    background-position-x: 10%;
+
+    &::after {
+      right: 10%;
+    }
+
+    .img {
+      height: 120px;
+    }
+  }
 }
