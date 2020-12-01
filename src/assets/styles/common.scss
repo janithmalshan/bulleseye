@@ -1,9 +1,11 @@
 .ui-main {
   position: relative;
   flex: 1;
+  margin-top: $navbar-mobile;
 
   @media screen and (min-width: $mobile-break) {
-    background-color: #329B83;
+    //background-color: #329B83;
+    margin-top: $navbar;
   }
 }
 

@@ -16,9 +16,14 @@
     display: grid;
     width: 80%;
     max-width: 1400px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-items: center;
     margin: 60px auto 0;
+
+    > div {
+      width: 100%;
+      text-align: center;
+    }
 
     h1 {
       font-size: 70px;
@@ -44,6 +49,14 @@
     img {
       height: 150px;
       margin-bottom: 30px;
+    }
+  }
+
+  @media screen and (min-width: $mobile-break) {
+    //padding: 140px 0 150px;
+
+    .ui-how {
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
 
