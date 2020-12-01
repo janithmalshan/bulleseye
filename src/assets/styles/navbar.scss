@@ -77,7 +77,7 @@
       margin-right: 30px;
       font-size: 16px;
       height: 60px;
-      width: 200px;
+      width: 240px;
       line-height: 60px;
     }
   }
@@ -194,6 +194,6 @@
 
   @media screen and (min-width: $hd-break) {
     height: $navbar;
-    padding: 0 160px 0 100px;
+    padding: 0 8% 0 5%;
   }
 }

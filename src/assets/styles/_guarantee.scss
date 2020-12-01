@@ -4,11 +4,13 @@
   background-color: #ffffff;
   align-items: center;
   justify-content: center;
+  padding: 50px 0;
 
   .ui-guarantee {
     display: grid;
     grid-template-columns: 1fr;
     width: 80%;
+    margin: auto;
 
     &__content {
       display: grid;
@@ -19,6 +21,7 @@
 
       .img-guarantee {
         width: 100px;
+        align-self: start;
       }
 
       h1 {
@@ -41,13 +44,14 @@
 
     .img {
       width: auto;
-      max-width: 324px;
+      max-width: 224px;
     }
   }
 
   @media screen and (min-width: $mobile-break) {
     height: 580px;
     flex-direction: column;
+    padding: 0;
 
     .ui-guarantee {
       display: grid;
@@ -56,15 +60,15 @@
 
       &__content {
         grid-template-columns: min-content 1fr;
-        grid-column-gap: 60px;
+        grid-column-gap: 20px;
       }
 
       .img-guarantee {
-        width: 160px;
+        width: 120px;
       }
 
       .img {
-        width: auto;
+        max-width: 324px;
       }
     }
   }
@@ -74,8 +78,13 @@
 
     .ui-guarantee {
 
+      &__content {
+        grid-column-gap: 60px;
+      }
+
       .img-guarantee {
         width: 200px;
+        align-self: center;
       }
 
       .img {

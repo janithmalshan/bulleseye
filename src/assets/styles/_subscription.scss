@@ -6,6 +6,8 @@
   background-position-x: 1%;
   position: relative;
   padding: 30px 0 50px;
+  max-width: $viewport;
+  margin: auto;
 
   .ui-subscription {
     width: 70%;
@@ -35,6 +37,8 @@
       line-height: 36px;
       margin-top: 40px;
       text-align: left;
+      background: #ffffff78;
+      z-index: 1;
     }
 
     a {

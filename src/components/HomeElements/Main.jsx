@@ -1,10 +1,12 @@
 import React from "react";
 import img from "../../assets/images/img-sec-main-cards.svg"
+import imgMobile from "../../assets/images/img-sec-main-right.svg"
 
 export const Main = () => {
     return (
         <section className="ui-main__sec-main">
             <div className="ui-top-main__left">
+                <img className="img-mobile" src={imgMobile}/>
                 <h1>For under 10¢ a day!</h1>
                 <p>Receive the hottest deals on the web,curated and chosen by our team of deal experts and delivered directly to your Inbox daily!</p>
                 <div>
