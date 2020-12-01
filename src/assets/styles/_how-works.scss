@@ -1,0 +1,60 @@
+.ui-main__sec-how {
+  background-color: #F8F9F9;
+  padding: 70px 0 80px;
+
+  h1 {
+    font-size: 30px;
+    color: $color-text-default;
+    font-family: $font-stack-2;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: center;
+    padding-right: 3%;
+  }
+
+  .ui-how {
+    display: grid;
+    width: 80%;
+    max-width: 1400px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 60px auto 0;
+
+    h1 {
+      font-size: 70px;
+      color: $color-secondary;
+      font-family: $font-stack-2;
+      font-weight: 800;
+      line-height: 60px;
+      margin-right: 10px;
+      display: inline-block;
+      vertical-align: bottom;
+    }
+
+    p {
+      font-size: 16px;
+      color: $color-text-default;
+      font-family: $font-stack-2;
+      font-weight: 700;
+      line-height: 30px;
+      text-align: left;
+      display: inline-block;
+    }
+
+    img {
+      height: 150px;
+      margin-bottom: 30px;
+    }
+  }
+
+  @media screen and (min-width: $hd-break) {
+    padding: 140px 0 150px;
+
+    .ui-how {
+
+      .img {
+        height: 200px;
+      }
+    }
+  }
+}

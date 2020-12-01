@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04985a96-19da-49af-8c67-9174d680b57c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/ic-petcharity.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-giveaway.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-subs-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-subs-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/img-how-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/img-how-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/img-how-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/img-sec-main-cards.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/img-sec-main-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/img-sec-main-right.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_giveaway.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_giveaway.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_subscription.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_subscription.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Giveaways.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Giveaways.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Subscription.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Subscription.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/_how-works.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_how-works.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/_slideshow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_slideshow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/typo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/typo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/HowItWorks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/HowItWorks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/SlideShow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/SlideShow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +55,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="M:\MAL\Projects\upwork\bullseye\src\components\HomeElements" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="M:\MAL\Projects\upwork\bullseye\src\assets\images" />
       <recent name="M:\MAL\Projects\upwork\bullseye\src\components\Home" />
       <recent name="M:\MAL\Projects\upwork\bullseye\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="M:\MAL\Projects\upwork\bullseye\src\components\HomeElements" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -82,7 +89,9 @@
       <workItem from="1606490770043" duration="1530000" />
       <workItem from="1606492439900" duration="22278000" />
       <workItem from="1606554685872" duration="177000" />
-      <workItem from="1606683098560" duration="11912000" />
+      <workItem from="1606683098560" duration="11993000" />
+      <workItem from="1606722333885" duration="7000" />
+      <workItem from="1606758482857" duration="11073000" />
     </task>
     <servers />
   </component>
@@ -110,11 +119,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1606524635482" />
-    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1606683544810">
+    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1606776452861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1606498130212" />
-    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606683544810" />
+    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606776452861" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1606492977258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

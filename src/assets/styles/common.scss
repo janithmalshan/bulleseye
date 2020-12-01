@@ -41,9 +41,22 @@
   -webkit-transition: background-color 400ms ease;
   transition: background-color 400ms ease;
 
+  &.outline {
+    background-color: transparent;
+    border: 0;
+    box-shadow: 0px 0px 0px 2px $color-secondary-dark inset;
+    -webkit-box-shadow: 0px 0px 0px 2px $color-secondary-dark inset;
+    -moz-box-shadow: 0px 0px 0px 2px $color-secondary-dark inset;
+    color: $color-secondary-dark;
+  }
+
   &:hover {
     cursor: pointer;
     background-color: $color-secondary-dark;
+
+    &.outline {
+      background-color: #f0f0f0;
+    }
   }
   @media screen and (min-width: $hd-break) {
     height: 60px;

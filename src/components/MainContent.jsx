@@ -5,6 +5,9 @@ import {Subscription} from "./HomeElements/Subscription";
 import {Subscribe} from "./HomeElements/Subscribe";
 import {Guarantee} from "./HomeElements/Guarantee";
 import {Giveaways} from "./HomeElements/Giveaways";
+import {Main} from "./HomeElements/Main";
+import {HowItWorks} from "./HomeElements/HowItWorks";
+import {SlideShow} from "./HomeElements/SlideShow";
 
 export class MainContent extends Component {
     constructor(props) {
@@ -17,22 +20,9 @@ export class MainContent extends Component {
     render() {
         return (
             <UiMainWrapper>
-                <section className="ui-main__sec1">
-                    <div className="ui-main__sec1-img">
-                    </div>
-                    <div>
-                        <h1>
-                            Restaurant Integrator, Allowing Orders Through Delivery Partners
-                        </h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </div>
-                </section>
-                <section className="ui-main__sec-why">
-                    <h2>Why Choose Us Than Others</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </section>
+                <Main/>
+                <HowItWorks/>
+                <SlideShow/>
                 <Subscription/>
                 <Giveaways/>
                 <Guarantee/>
