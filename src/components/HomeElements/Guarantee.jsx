@@ -3,9 +3,9 @@ import imgGuarantee from "../../assets/images/img-guarantee.svg"
 import icGuarantee from "../../assets/images/ic-guarantee.svg"
 import {UiContentWrapper} from "../GridLayout";
 
-export const Guarantee = () => {
+export const Guarantee = (props) => {
     return (
-        <section className="ui-main__sec-guarantee">
+        <section className="ui-main__sec-guarantee" id={props.id}>
             <UiContentWrapper>
                 <div className="ui-guarantee">
                     <div className="ui-guarantee__content">

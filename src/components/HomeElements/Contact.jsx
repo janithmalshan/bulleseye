@@ -1,9 +1,9 @@
 import React from "react";
 import menu from "../../assets/images/ic-menu.svg";
 
-export const Contact = () => {
+export const Contact = (props) => {
     return (
-        <section className="ui-main__sec-contact">
+        <section className="ui-main__sec-contact" id={props.id}>
             <div className="ui-contact">
                 <h1>CONTACT US</h1>
                 <p>Our agents will respond to you within 24 hours.</p>

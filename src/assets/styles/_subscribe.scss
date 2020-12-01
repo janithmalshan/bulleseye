@@ -143,7 +143,7 @@
       }
     }
 
-    @media screen and (max-width: 374px) {
+    @media screen and (max-width: $sm-break) {
       zoom: 0.8;
     }
   }

@@ -3,9 +3,9 @@ import img1 from "../../assets/images/img-how-1.svg"
 import img2 from "../../assets/images/img-how-2.svg"
 import img3 from "../../assets/images/img-how-3.svg"
 
-export const HowItWorks = () => {
+export const HowItWorks = (props) => {
     return (
-        <section className="ui-main__sec-how">
+        <section className="ui-main__sec-how" id={props.id}>
             <h1 className="text-center">HOW IT WORKS</h1>
             <div className="ui-how">
                 <div>

@@ -1,9 +1,9 @@
 import React from "react";
 import logo from "../../assets/images/ic-petcharity.svg"
 
-export const Subscription = () => {
+export const Subscription = (props) => {
     return (
-        <section className="ui-main__sec-subscription">
+        <section className="ui-main__sec-subscription" id={props.id}>
             <div className="ui-subscription">
                 <h1>25¢ per subscription goes to</h1>
                 <img src={logo} className="img"/>

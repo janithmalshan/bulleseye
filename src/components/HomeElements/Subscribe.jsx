@@ -4,9 +4,9 @@ import labelPercent50 from "../../assets/images/ic-deal-50.svg"
 import labelPercent65 from "../../assets/images/ic-deal-65.svg"
 import imgSubscribe from "../../assets/images/img-subscribe.svg"
 
-export const Subscribe = () => {
+export const Subscribe = (props) => {
     return (
-        <section className="ui-main__sec-subscribe">
+        <section className="ui-main__sec-subscribe" id={props.id}>
             <div className="ui-subscribe">
                 <h1>SUBSCRIBE</h1>
                 <p>*Limited Time Savings!</p>

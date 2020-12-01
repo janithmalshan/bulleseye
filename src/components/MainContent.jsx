@@ -21,13 +21,13 @@ export class MainContent extends Component {
         return (
             <UiMainWrapper>
                 <Main/>
-                <HowItWorks/>
-                <SlideShow/>
-                <Subscription/>
-                <Giveaways/>
-                <Guarantee/>
-                <Subscribe/>
-                <Contact/>
+                <HowItWorks id="section1"/>
+                <SlideShow id="section2"/>
+                <Subscription id="section3"/>
+                <Giveaways id="section4"/>
+                <Guarantee id="section5"/>
+                <Subscribe id="section6"/>
+                <Contact id="section7"/>
             </UiMainWrapper>
         )
     }
