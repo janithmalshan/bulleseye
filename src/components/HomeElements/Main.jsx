@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../../assets/images/img-sec-main-cards.svg"
 import imgMobile from "../../assets/images/img-sec-main-right.svg"
+import {Link} from "react-scroll";
 
 export const Main = () => {
     return (
@@ -10,8 +11,11 @@ export const Main = () => {
                 <h1>For under 10¢ a day!</h1>
                 <p>Receive the hottest deals on the web,curated and chosen by our team of deal experts and delivered directly to your Inbox daily!</p>
                 <div>
-                    <button className="ui-btn">SUBSCRIBE NOW!</button>
-                    <button className="ui-btn outline">LEARN MORE</button>
+                    <Link to="section6"
+                          smooth={true}
+                          offset={-10}
+                          duration={500} className="ui-btn">SUBSCRIBE NOW!</Link>
+                    <Link className="ui-btn outline">LEARN MORE</Link>
                 </div>
             </div>
             <div className="ui-top-main__right">

@@ -4,13 +4,13 @@
   background-image: url("../images/img-sec-main-left.svg");
   background-repeat: no-repeat;
   background-position: bottom;
-  background-position-x: 5%;
+  background-position-x: 25%;
   position: relative;
-  padding: 0px 2% 190px 5%;
+  padding: 0px 2% 200px 5%;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  background-size: 75%;
+  background-size: 65%;
 
   .ui-top-main {
 
@@ -95,6 +95,10 @@
         }
       }
     }
+  }
+
+  @media screen and (max-width: $sm-break) {
+    padding-bottom: 130px;
   }
 
   @media screen and (min-width: $mobile-break) {
