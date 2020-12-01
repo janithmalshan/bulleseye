@@ -7,7 +7,7 @@ export const Subscription = () => {
             <div className="ui-subscription">
                 <h1>25¢ per subscription goes to</h1>
                 <img src={logo} className="img"/>
-                <a target="_blank" href={'https://petsmartcharities.org/'}>https://petsmartcharities.org/</a>
+                <a target="_blank" rel="noreferrer" href={'https://petsmartcharities.org/'}>https://petsmartcharities.org/</a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tortor eu est sollicitudin mattis id
                     quis diam. Suspendisse sagittis condimentum ligula a ullamcorper. Vestibulum ante ipsum primis in
                     faucibus orci luctus et ultrices posuere cubilia curae.</p>

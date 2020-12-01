@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04985a96-19da-49af-8c67-9174d680b57c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-how-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-how-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-how-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-sec-main-cards.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-sec-main-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-sec-main-right.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_how-works.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_how-works.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_slideshow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_slideshow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/typo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/typo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/HowItWorks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/HowItWorks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/SlideShow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/SlideShow.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +75,7 @@
       <workItem from="1606554685872" duration="177000" />
       <workItem from="1606683098560" duration="11993000" />
       <workItem from="1606722333885" duration="7000" />
-      <workItem from="1606758482857" duration="11073000" />
+      <workItem from="1606758482857" duration="12014000" />
     </task>
     <servers />
   </component>
