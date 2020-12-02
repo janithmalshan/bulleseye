@@ -86,7 +86,7 @@
   &__guarantee {
     height: 56px;
     position: absolute;
-    right: 85px;
+    right: 15px;
 
     @media screen and (min-width: $mobile-break) {
       position: relative;
@@ -127,7 +127,7 @@
     }
 
     &-btn {
-      margin-right: -8px;
+      margin-right: 60px;
       padding: 8px;
       display: inline-flex;
       border-radius: 50%;

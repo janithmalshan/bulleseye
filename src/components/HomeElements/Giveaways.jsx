@@ -1,6 +1,7 @@
 import React from "react";
 import icGuarantee from "../../assets/images/ic-guarantee.svg";
 import imgGiveaway from "../../assets/images/img-giveaway.svg";
+import {Link} from "react-scroll";
 
 export const Giveaways = (props) => {
     return (
@@ -12,7 +13,10 @@ export const Giveaways = (props) => {
                     faucibus orci luctus et ultrices posuere cubilia curae.</p>
                 <h2>$25, $50, $100, $250, $500</h2>
                 <img src={imgGiveaway} className="img"/>
-                <button className="ui-btn">SUBSCRIBE NOW!</button>
+                <Link to="section6"
+                      smooth={true}
+                      offset={-10}
+                      duration={500} className="ui-btn">SUBSCRIBE NOW!</Link>
             </div>
         </section>
     )

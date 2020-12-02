@@ -9,6 +9,10 @@
   text-align: center;
   width: 80%;
 
+  .ui-btn {
+    min-width: 200px;
+  }
+
   h1 {
     color: #F8F9F9;
     font-size: 30px;
@@ -37,7 +41,7 @@
 
     @media screen and (max-width: $md-break) {
       display: block;
-      padding-top: 10px;
+      padding: 10px 0 20px;
 
       .ui-input {
         margin-top: 20px;
