@@ -60,8 +60,8 @@
       .ui-btn {
         margin-right: 30px;
 
-        @media screen and (max-width: $sm-break) {
-          margin: 0 0 10px;
+        @media screen and (max-width: $md-break) {
+          margin: 0 0 20px;
           display: flex;
 
           &:last-of-type {
@@ -98,7 +98,7 @@
     }
   }
 
-  @media screen and (max-width: $sm-break) {
+  @media screen and (max-width: $md-break) {
     padding-bottom: 130px;
   }
 

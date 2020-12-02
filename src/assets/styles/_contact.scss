@@ -35,7 +35,7 @@
     .div2 { grid-area: 1 / 2 / 2 / 3; }
     .div3 { grid-area: 2 / 1 / 3 / 3; }
 
-    @media screen and (max-width: $sm-break) {
+    @media screen and (max-width: $md-break) {
       display: block;
       padding-top: 10px;
 
