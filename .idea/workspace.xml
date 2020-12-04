@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04985a96-19da-49af-8c67-9174d680b57c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/HomeElements/ReactPayPal.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_guarantee.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_guarantee.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Giveaways.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Giveaways.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Subscribe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Subscribe.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +100,9 @@
       <workItem from="1606838717444" duration="804000" />
       <workItem from="1606841888719" duration="15986000" />
       <workItem from="1606903278552" duration="7940000" />
-      <workItem from="1606927018203" duration="3649000" />
+      <workItem from="1606927018203" duration="4599000" />
+      <workItem from="1607080464820" duration="85000" />
+      <workItem from="1607119821864" duration="2408000" />
     </task>
     <servers />
   </component>
