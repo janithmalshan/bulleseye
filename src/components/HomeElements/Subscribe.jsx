@@ -3,16 +3,31 @@ import payTypes from "../../assets/images/ic-subscribe-iconset.svg"
 import labelPercent50 from "../../assets/images/ic-deal-50.svg"
 import labelPercent65 from "../../assets/images/ic-deal-65.svg"
 import imgSubscribe from "../../assets/images/img-subscribe.svg"
-import ReactPayPal from "./ReactPayPal"
+import PayPalButton from "./PayPalBtn"
+
+// import PayPalBtn from './components/PayPalBtn'
+const paypalSubscribe = (data, actions) => {
+    return actions.subscription.create({
+        'plan_id': "P-9BV25233YH3816747L7EHYLY",
+    });
+};
+const paypalOnError = (err) => {
+    console.log("Error")
+};
+const paypalOnApprove = (data, detail) => {
+// call the backend api to store transaction details
+    console.log("Payapl approved")
+    console.log(data.subscriptionID)
+};
 
 export const Subscribe = (props) => {
-    const [checkout, setCheckout] = React.useState(false);
+    // const [checkout, setCheckout] = React.useState(false);
     return (
         <section className="ui-main__sec-subscribe" id={props.id}>
             <div className="ui-subscribe">
                 <h1>SUBSCRIBE</h1>
                 <p>*Limited Time Savings!</p>
-                {(checkout === true)
+                {/*{(checkout === true)
                     ? <div className="payment-div">
                         <ReactPayPal
                             total={500}
@@ -23,7 +38,7 @@ export const Subscribe = (props) => {
                         <h1>React-PayPal</h1>
                         <button onClick={() => {setCheckout(true)}} className="checkout-button">Checkout</button>
                     </div>
-                }
+                }*/}
                 <input className="ui-input" placeholder="Enter Email Address"/>
                 <div className="ui-subscribe__wr">
                     <div className="ui-subscribe__wr-item">
@@ -33,9 +48,15 @@ export const Subscribe = (props) => {
                         <p>25¢ per subscription goes to the PetSmart charities</p>
                         <p>Weekly Gift Card Giveaways!</p>
                         <img src={payTypes} height={30}/>
-                        <div className="payment-div">
-                            <ReactPayPal />
-                        </div>
+                        <PayPalButton
+                            amount = "0.1"
+                            currency = "USD"
+                            createSubscription={paypalSubscribe}
+                            onApprove={paypalOnApprove}
+                            catchError={paypalOnError}
+                            onError={paypalOnError}
+                            onCancel={paypalOnError}
+                        />
                         <img className="ui-label-icon" src={labelPercent50}/>
                     </div>
                     <div className="ui-subscribe__wr-item">

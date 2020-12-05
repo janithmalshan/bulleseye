@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04985a96-19da-49af-8c67-9174d680b57c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/HomeElements/ReactPayPal.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/ReactPayPal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/PayPalBtn.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Subscribe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Subscribe.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,6 +136,10 @@
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1606524635482" />
     <state width="1899" height="728" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606839529141" />
+    <state x="788" y="232" key="RollbackChangesDialog" timestamp="1607168452084">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="788" y="232" key="RollbackChangesDialog/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607168452084" />
     <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1606916418552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
