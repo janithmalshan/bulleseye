@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04985a96-19da-49af-8c67-9174d680b57c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/HomeElements/Subscribe2.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
@@ -105,7 +104,7 @@
       <workItem from="1606927018203" duration="4599000" />
       <workItem from="1607080464820" duration="85000" />
       <workItem from="1607119821864" duration="2408000" />
-      <workItem from="1607179378746" duration="7013000" />
+      <workItem from="1607179378746" duration="8674000" />
     </task>
     <servers />
   </component>

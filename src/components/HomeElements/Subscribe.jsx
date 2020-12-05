@@ -7,7 +7,7 @@ import PayPalButton from "./PayPalBtn"
 
 const paypalSubscribe = (data, actions) => {
     return actions.subscription.create({
-        'plan_id': "P-4L440189JC489602DL7EH2QY",
+        'plan_id': "P-8K334788YX7869253L7F4CUQ",
     });
 };
 const paypalOnError = (err) => {
@@ -27,11 +27,20 @@ export const Subscribe = (props) => {
     useEffect(() => {
         window.paypal
             .Buttons({
+                style: {
+                    shape: 'pill',
+                    color: 'gold',
+                    layout: 'horizontal',
+                    label: 'subscribe'
+                },
                 createSubscription: function(data, actions) {
                     return actions.subscription.create({
-                        'plan_id': 'P-4L440189JC489602DL7EH2QY' // Creates the subscription
+                        'plan_id': 'P-8K334788YX7869253L7F4CUQ'
                     });
                 },
+                // onApprove: function(data, actions) {
+                //     alert(data.subscriptionID);
+                // },
                 // onApprove: function(data, actions) {
                 //     alert('You have successfully created subscription ' + data.subscriptionID);
                 // },
@@ -51,18 +60,6 @@ export const Subscribe = (props) => {
                 <h1>SUBSCRIBE</h1>
                 <p>*Limited Time Savings!</p>
 
-                {/*{(checkout === true)
-                    ? <div className="payment-div">
-                        <ReactPayPal
-                            total={500}
-                        />
-                    </div>
-
-                    :<div>
-                        <h1>React-PayPal</h1>
-                        <button onClick={() => {setCheckout(true)}} className="checkout-button">Checkout</button>
-                    </div>
-                }*/}
                 <input className="ui-input" placeholder="Enter Email Address"/>
                 <div className="ui-subscribe__wr">
                     <div className="ui-subscribe__wr-item">

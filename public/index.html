@@ -45,7 +45,26 @@
 
 <!--    <script src="https://www.paypal.com/sdk/js?client-id=AVYQ-SNpdBvT1WQ6DdCfykGjVVC_IpK2KX207THiHML6VnoTsKQ3y0R8H3M5PCScX9el-SVew3-eLt2W&vault=true&intent=subscription">
     </script>-->
-    <script src="https://www.paypal.com/sdk/js?client-id=AVYQ-SNpdBvT1WQ6DdCfykGjVVC_IpK2KX207THiHML6VnoTsKQ3y0R8H3M5PCScX9el-SVew3-eLt2W&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+<!--    <script src="https://www.paypal.com/sdk/js?client-id=AVYQ-SNpdBvT1WQ6DdCfykGjVVC_IpK2KX207THiHML6VnoTsKQ3y0R8H3M5PCScX9el-SVew3-eLt2W&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>-->
 
+    <script src="https://www.paypal.com/sdk/js?client-id=AbERozXLdUXvCezq8S4sRjSHerQdPdFSzC8DO2Z1M-U6OCMvE3elNsZxyVJGZ5s0UiyPDCzWB77VAaOh&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+<!--    <script>
+      paypal.Buttons({
+        style: {
+          shape: 'pill',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'subscribe'
+        },
+        createSubscription: function(data, actions) {
+          return actions.subscription.create({
+            'plan_id': 'P-8K334788YX7869253L7F4CUQ'
+          });
+        },
+        onApprove: function(data, actions) {
+          alert(data.subscriptionID);
+        }
+      }).render('#paypal-button-container');
+    </script>-->
   </body>
 </html>
