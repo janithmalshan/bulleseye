@@ -7,7 +7,7 @@ import PayPalButton from "./PayPalBtn"
 
 const paypalSubscribe = (data, actions) => {
     return actions.subscription.create({
-        'plan_id': "P-8K334788YX7869253L7F4CUQ",
+        'plan_id': "P-5L726517LW392523YL7F5EEQ",
     });
 };
 const paypalOnError = (err) => {
@@ -35,7 +35,7 @@ export const Subscribe = (props) => {
                 },
                 createSubscription: function(data, actions) {
                     return actions.subscription.create({
-                        'plan_id': 'P-8K334788YX7869253L7F4CUQ'
+                        'plan_id': 'P-5L726517LW392523YL7F5EEQ'
                     });
                 },
                 // onApprove: function(data, actions) {

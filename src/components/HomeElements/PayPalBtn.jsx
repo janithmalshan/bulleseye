@@ -51,7 +51,7 @@ import { PayPalButton } from "react-paypal-button-v2";
 import React from 'react';
 export function PayPalBtn(props) {
     const { amount, currency, createSubscription, onApprove, catchError,onError, onCancel} = props;
-    const paypalKey = "AbERozXLdUXvCezq8S4sRjSHerQdPdFSzC8DO2Z1M-U6OCMvE3elNsZxyVJGZ5s0UiyPDCzWB77VAaOh";   //client-id
+    const paypalKey = "AR2VVxFGh3r1C8aEPf8T3TkgiPrRylB67cmEHo9OGyuV61Fvz8y7_kgxyJIR_JISGz5J1hmBIhgeMGZc";   //client-id
     return (
         <PayPalButton
             amount={amount}

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04985a96-19da-49af-8c67-9174d680b57c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomeElements/PayPalBtn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/PayPalBtn.jsx" afterDir="false" />
@@ -104,7 +103,8 @@
       <workItem from="1606927018203" duration="4599000" />
       <workItem from="1607080464820" duration="85000" />
       <workItem from="1607119821864" duration="2408000" />
-      <workItem from="1607179378746" duration="8674000" />
+      <workItem from="1607179378746" duration="8859000" />
+      <workItem from="1607190651876" duration="819000" />
     </task>
     <servers />
   </component>
@@ -116,25 +116,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1606496642193" />
-    <state width="1899" height="728" key="GridCell.Tab.0.bottom" timestamp="1607179643624">
+    <state width="1899" height="728" key="GridCell.Tab.0.bottom" timestamp="1607190046447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="728" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607179643624" />
+    <state width="1899" height="728" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607190046447" />
     <state width="1899" height="728" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606839529141" />
-    <state width="1899" height="728" key="GridCell.Tab.0.center" timestamp="1607179643624">
+    <state width="1899" height="728" key="GridCell.Tab.0.center" timestamp="1607190046446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="728" key="GridCell.Tab.0.center/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607179643624" />
+    <state width="1899" height="728" key="GridCell.Tab.0.center/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607190046446" />
     <state width="1899" height="728" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606839529141" />
-    <state width="1899" height="728" key="GridCell.Tab.0.left" timestamp="1607179643623">
+    <state width="1899" height="728" key="GridCell.Tab.0.left" timestamp="1607190046446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="728" key="GridCell.Tab.0.left/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607179643623" />
+    <state width="1899" height="728" key="GridCell.Tab.0.left/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607190046446" />
     <state width="1899" height="728" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606839529141" />
-    <state width="1899" height="728" key="GridCell.Tab.0.right" timestamp="1607179643624">
+    <state width="1899" height="728" key="GridCell.Tab.0.right" timestamp="1607190046447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="728" key="GridCell.Tab.0.right/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607179643624" />
+    <state width="1899" height="728" key="GridCell.Tab.0.right/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607190046447" />
     <state width="1899" height="728" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606839529141" />
     <state x="788" y="232" key="RollbackChangesDialog" timestamp="1607168452084">
       <screen x="0" y="0" width="1920" height="1040" />
