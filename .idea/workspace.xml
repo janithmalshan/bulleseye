@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04985a96-19da-49af-8c67-9174d680b57c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/HomeElements/Subscribe2.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/ReactPayPal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/PayPalBtn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/PayPalBtn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/PayPalBtn.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Subscribe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Subscribe.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,18 +39,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/HomeElements" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="M:\MAL\Projects\upwork\bullseye\src\components\HomeElements" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\MAL\Projects\upwork\test\bulleseye\src\components\HomeElements" />
       <recent name="M:\MAL\Projects\upwork\bullseye\src\assets\images" />
       <recent name="M:\MAL\Projects\upwork\bullseye\src\components\Home" />
       <recent name="M:\MAL\Projects\upwork\bullseye\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="M:\MAL\Projects\upwork\bullseye\src\components\HomeElements" />
     </key>
   </component>
   <component name="RunManager">
@@ -105,6 +105,7 @@
       <workItem from="1606927018203" duration="4599000" />
       <workItem from="1607080464820" duration="85000" />
       <workItem from="1607119821864" duration="2408000" />
+      <workItem from="1607179378746" duration="7013000" />
     </task>
     <servers />
   </component>
@@ -116,34 +117,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1606496642193" />
-    <state width="1899" height="728" key="GridCell.Tab.0.bottom" timestamp="1606839529141">
+    <state width="1899" height="728" key="GridCell.Tab.0.bottom" timestamp="1607179643624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1606524635482" />
+    <state width="1899" height="728" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607179643624" />
     <state width="1899" height="728" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606839529141" />
-    <state width="1899" height="728" key="GridCell.Tab.0.center" timestamp="1606839529141">
+    <state width="1899" height="728" key="GridCell.Tab.0.center" timestamp="1607179643624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1606524635482" />
+    <state width="1899" height="728" key="GridCell.Tab.0.center/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607179643624" />
     <state width="1899" height="728" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606839529141" />
-    <state width="1899" height="728" key="GridCell.Tab.0.left" timestamp="1606839529141">
+    <state width="1899" height="728" key="GridCell.Tab.0.left" timestamp="1607179643623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1606524635482" />
+    <state width="1899" height="728" key="GridCell.Tab.0.left/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607179643623" />
     <state width="1899" height="728" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606839529141" />
-    <state width="1899" height="728" key="GridCell.Tab.0.right" timestamp="1606839529141">
+    <state width="1899" height="728" key="GridCell.Tab.0.right" timestamp="1607179643624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1606524635482" />
+    <state width="1899" height="728" key="GridCell.Tab.0.right/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607179643624" />
     <state width="1899" height="728" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606839529141" />
     <state x="788" y="232" key="RollbackChangesDialog" timestamp="1607168452084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="788" y="232" key="RollbackChangesDialog/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607168452084" />
-    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1606916418552">
+    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1607183064500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1606498130212" />
+    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607183064500" />
     <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606916418552" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1606492977258">
       <screen x="0" y="0" width="1920" height="1040" />
