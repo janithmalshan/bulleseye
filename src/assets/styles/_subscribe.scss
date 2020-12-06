@@ -97,19 +97,14 @@
           }
         }
 
-        .ui-btn-paypal {
-          display: inline-block;
-          height: 55px;
-          width: 280px;
-          background-image: url("../images/ic-subscribe-paypal.svg");
-          background-repeat: no-repeat;
-          cursor: pointer;
+        .ui-subscribe__pay {
+          display: flex;
           box-sizing: border-box;
           padding: 0;
           border: 0;
-          border-radius: 30px;
-          background-size: cover;
-          margin: 30px 15px 0;
+          margin: 30px 0 -25px;
+          flex: 1;
+          flex-direction: column;
         }
 
         .ui-label-icon {
