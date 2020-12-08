@@ -12,6 +12,16 @@
   z-index: 10;
   position: fixed;
 
+  &__inner {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    max-width: $viewport;
+    margin: auto;
+    height: $navbar-mobile;
+  }
+
   &__logo {
     height: 60px;
     z-index: 9;
@@ -196,5 +206,9 @@
   @media screen and (min-width: $hd-break) {
     height: $navbar;
     padding: 0 8% 0 5%;
+
+    &__inner {
+      height: $navbar;
+    }
   }
 }

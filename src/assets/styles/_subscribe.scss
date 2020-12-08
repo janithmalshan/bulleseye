@@ -105,6 +105,8 @@
           margin: 30px 0 -25px;
           flex: 1;
           flex-direction: column;
+          z-index: 0;
+          position: relative;
         }
 
         .ui-label-icon {

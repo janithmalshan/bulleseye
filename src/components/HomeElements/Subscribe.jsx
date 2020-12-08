@@ -14,8 +14,7 @@ const Results = () => (
 
 export const Subscribe = (props) => {
     const paypal = useRef();
-    const paypalKeyM = "AatOQhODvDbtXf59KbuwCdaTvGXkurbe4qSXguXoit6o20lDRCZprvqzJF5xhGWaxlaRxITTKHAnWy5r";   //client-id
-    const paypalKeyY = "AatOQhODvDbtXf59KbuwCdaTvGXkurbe4qSXguXoit6o20lDRCZprvqzJF5xhGWaxlaRxITTKHAnWy5r";   //client-id
+    const paypalKey = "AatOQhODvDbtXf59KbuwCdaTvGXkurbe4qSXguXoit6o20lDRCZprvqzJF5xhGWaxlaRxITTKHAnWy5r";   //client-id
 
     const [showResults, setShowResults] = React.useState(false)
 
@@ -31,6 +30,10 @@ export const Subscribe = (props) => {
     const paypalSubscribeY = (data, actions) => {
         return actions.subscription.create({
             'plan_id': "P-4L440189JC489602DL7EH2QY",
+            'application_context': {
+                "brand_name": "BULLSEYE DEALS",
+                "shipping_preference": "NO_SHIPPING"
+            }
         });
     };
     const paypalOnError = (err) => {
@@ -99,7 +102,7 @@ export const Subscribe = (props) => {
                                     catchError={paypalOnError}
                                     onError={paypalOnError}
                                     onCancel={paypalOnError}
-                                    clientId={paypalKeyM}
+                                    clientId={paypalKey}
                                 />
                             </div>
                         </div>
@@ -118,7 +121,7 @@ export const Subscribe = (props) => {
                                     catchError={paypalOnError}
                                     onError={paypalOnError}
                                     onCancel={paypalOnError}
-                                    clientId={paypalKeyY}
+                                    clientId={paypalKey}
                                 />
                             </div>
                         </div>
