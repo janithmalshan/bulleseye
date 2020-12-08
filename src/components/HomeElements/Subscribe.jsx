@@ -22,6 +22,10 @@ export const Subscribe = (props) => {
     const paypalSubscribeM = (data, actions) => {
         return actions.subscription.create({
             'plan_id': "P-9BV25233YH3816747L7EHYLY",
+            'application_context': {
+                "brand_name": "BULLSEYE DEALS",
+                "shipping_preference": "NO_SHIPPING"
+            }
         });
     };
     const paypalSubscribeY = (data, actions) => {
@@ -101,7 +105,7 @@ export const Subscribe = (props) => {
                         </div>
                         <div className="ui-subscribe__wr-item">
                             <h1>$ 24.78/year</h1>
-                            <h2>$ 70.80/month</h2>
+                            <h2>$ 70.80/year</h2>
                             <p>Less than 10¢ a day</p>
                             <p>25¢ per subscription goes to the PetSmart charities</p>
                             <p>Weekly Gift Card Giveaways!</p>

@@ -4,9 +4,6 @@
     <list default="true" id="04985a96-19da-49af-8c67-9174d680b57c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_subscribe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_subscribe.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/PayPalBtn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/PayPalBtn.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Subscribe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Subscribe.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +103,10 @@
       <workItem from="1607080464820" duration="85000" />
       <workItem from="1607119821864" duration="2408000" />
       <workItem from="1607179378746" duration="8859000" />
-      <workItem from="1607190651876" duration="9751000" />
+      <workItem from="1607190651876" duration="11420000" />
+      <workItem from="1607247930811" duration="599000" />
+      <workItem from="1607272076932" duration="795000" />
+      <workItem from="1607462838482" duration="1522000" />
     </task>
     <servers />
   </component>
