@@ -36,7 +36,13 @@ export class Navbar extends Component {
                         <NavLink to="section4" link="Weekly Giveaways" onClickMenu={() => this.setState({active: !this.state.active})}/>
                         <NavLink to="section7" link="Help" onClickMenu={() => this.setState({active: !this.state.active})}/>
                     </div>
-                    <img className="ui-navbar__guarantee" src={iconGuarantee} alt="guarantee"/>
+                    <Link to="section5"
+                          smooth={true}
+                          offset={-60}
+                          duration={500}
+                          className={"ui-navbar__guarantee-link"}>
+                        <img className="ui-navbar__guarantee" src={iconGuarantee} alt="guarantee"/>
+                    </Link>
                     <button className="ui-navbar__menu-btn" onClick={() => this.setState({active: !this.state.active})}><img
                         src={menu} alt="menu"/></button>
                 </div>

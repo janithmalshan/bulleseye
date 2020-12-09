@@ -15,7 +15,10 @@ export const Main = () => {
                           smooth={true}
                           offset={-10}
                           duration={500} className="ui-btn">SUBSCRIBE NOW!</Link>
-                    <Link className="ui-btn outline">LEARN MORE</Link>
+                    <Link to="section1"
+                          smooth={true}
+                          offset={-60}
+                          duration={600} className="ui-btn outline">LEARN MORE</Link>
                 </div>
             </div>
             <div className="ui-top-main__right">

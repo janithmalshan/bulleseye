@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04985a96-19da-49af-8c67-9174d680b57c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Other/PrivacyPolicy.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Other/TermsConditions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/apikeys.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_guarantee.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_guarantee.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_subscribe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_subscribe.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Subscribe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Subscribe.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -39,6 +45,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -112,7 +119,7 @@
       <workItem from="1607190651876" duration="11420000" />
       <workItem from="1607247930811" duration="599000" />
       <workItem from="1607272076932" duration="795000" />
-      <workItem from="1607462838482" duration="4872000" />
+      <workItem from="1607462838482" duration="20683000" />
     </task>
     <servers />
   </component>
@@ -148,10 +155,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="788" y="232" key="RollbackChangesDialog/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607168452084" />
-    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1607195526943">
+    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1607513444300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607195526943" />
+    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607513444300" />
     <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606916418552" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1606492977258">
       <screen x="0" y="0" width="1920" height="1040" />

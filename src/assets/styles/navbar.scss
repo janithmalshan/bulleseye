@@ -98,6 +98,11 @@
     position: absolute;
     right: 15px;
 
+    &-link {
+      display: contents;
+      cursor: pointer;
+    }
+
     @media screen and (min-width: $mobile-break) {
       position: relative;
       right: unset;

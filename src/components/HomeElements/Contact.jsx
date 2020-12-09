@@ -1,31 +1,37 @@
 import React from "react";
-import menu from "../../assets/images/ic-menu.svg";
+import emailjs from 'emailjs-com';
+import apiKeys from '../apikeys';
 
 export const Contact = (props) => {
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm(apiKeys.SERVICE_ID, apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+
+        document.getElementById('formContact').reset();
+    }
+
     return (
         <section className="ui-main__sec-contact" id={props.id}>
-            <form >
-            <p>Your Name:</p>
-            <input name='name' type='text' placeholder='name…' className='form__input' />
-    <p>Subject:</p>
-    <input name='subject' type='text' placeholder='Subject…' className='form__input' />
-    <p>Your Message:</p>
-    <textarea name='message' type='text' placeholder='Your Message…' className='form__input-message'></textarea>
-    <button>Send Message</button>
-</form>
             <div className="ui-contact">
                 <h1>CONTACT US</h1>
                 <p>Our agents will respond to you within 24 hours.</p>
-                <form>
+                <form id="formContact" onSubmit={sendEmail}>
                     <div className="ui-contact__form">
-                        <input className="div1 ui-input" type="text" placeholder={'Name'}/>
-                        <input className="div2 ui-input" type="text" placeholder={'Email Address'}/>
+                        <input className="div1 ui-input" type="text" placeholder={'Name'} name="user_name"/>
+                        <input className="div2 ui-input" type="email" placeholder={'Email Address'} name="user_email"/>
                         <div className="div3">
                             <label>How can we help?</label>
-                            <textarea className="ui-input" placeholder={'Your message here'} rows={'10'}></textarea>
+                            <textarea className="ui-input" placeholder={'Your message here'} rows={'10'} name="message"></textarea>
                         </div>
                     </div>
-                    <button className="ui-btn">SEND</button>
+                    <button type="submit" className="ui-btn">SEND</button>
                 </form>
             </div>
         </section>
