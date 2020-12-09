@@ -84,17 +84,11 @@ export const Subscribe = (props) => {
                     <h1>SUBSCRIBE</h1>
                     <p>*Limited Time Savings!</p>
 
-                    <input className="ui-input" placeholder="Enter Email Address"/>
+                    {/*<input className="ui-input" placeholder="Enter Email Address"/>*/}
                     <div className="ui-subscribe__wr">
                         <div className="ui-subscribe__wr-item">
                             <h1>$ 2.95/month</h1>
                             <h2>$ 5.90/month</h2>
-                            <p>Less than 10¢ a day</p>
-                            {/*<div id="paypal-button-container"></div>*/}
-                            <p>25¢ per subscription goes to the PetSmart charities</p>
-                            <p>Weekly Gift Card Giveaways!</p>
-                            <img src={payTypes} height={30}/>
-                            <img className="ui-label-icon" src={labelPercent50}/>
                             <div className="ui-subscribe__pay">
                                 <PayPalButton
                                     createSubscription={paypalSubscribeM}
@@ -105,15 +99,15 @@ export const Subscribe = (props) => {
                                     clientId={paypalKey}
                                 />
                             </div>
-                        </div>
-                        <div className="ui-subscribe__wr-item">
-                            <h1>$ 24.78/year</h1>
-                            <h2>$ 70.80/year</h2>
                             <p>Less than 10¢ a day</p>
                             <p>25¢ per subscription goes to the PetSmart charities</p>
                             <p>Weekly Gift Card Giveaways!</p>
                             <img src={payTypes} height={30}/>
-                            <img className="ui-label-icon" src={labelPercent65}/>
+                            <img className="ui-label-icon" src={labelPercent50}/>
+                        </div>
+                        <div className="ui-subscribe__wr-item">
+                            <h1>$ 24.78/year</h1>
+                            <h2>$ 70.80/year</h2>
                             <div className="ui-subscribe__pay">
                                 <PayPalButton
                                     createSubscription={paypalSubscribeY}
@@ -124,6 +118,11 @@ export const Subscribe = (props) => {
                                     clientId={paypalKey}
                                 />
                             </div>
+                            <p>Less than 10¢ a day</p>
+                            <p>25¢ per subscription goes to the PetSmart charities</p>
+                            <p>Weekly Gift Card Giveaways!</p>
+                            <img src={payTypes} height={30}/>
+                            <img className="ui-label-icon" src={labelPercent65}/>
                         </div>
                     </div>
                     <img src={imgSubscribe} width={'100%'}/>

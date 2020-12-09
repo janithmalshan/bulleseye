@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04985a96-19da-49af-8c67-9174d680b57c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Other/PrivacyPolicy.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Other/TermsConditions.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apikeys.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/_subscribe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_subscribe.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Subscribe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Subscribe.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +110,9 @@
       <workItem from="1607190651876" duration="11420000" />
       <workItem from="1607247930811" duration="599000" />
       <workItem from="1607272076932" duration="795000" />
-      <workItem from="1607462838482" duration="20683000" />
+      <workItem from="1607462838482" duration="20908000" />
+      <workItem from="1607530442421" duration="698000" />
+      <workItem from="1607546393702" duration="2330000" />
     </task>
     <servers />
   </component>
