@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../../assets/images/img-s3.png"
-import img2 from "../../assets/images/img-s2.png"
-import img3 from "../../assets/images/img-s1.png"
+import img1 from "../../assets/images/img-s3.jpg"
+import img2 from "../../assets/images/img-s2.jpg"
+import img3 from "../../assets/images/img-s1.jpg"
 
 export class Slider extends React.Component {
     constructor(props) {
@@ -12,9 +12,7 @@ export class Slider extends React.Component {
                 img1,
                 img2,
                 img3,
-                "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/canyon.jpg",
-                "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/mountains.jpg",
-                "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/redsky.jpg"
+                // "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/canyon.jpg",
             ],
             currentIndex: 0,
             translateValue: 0
