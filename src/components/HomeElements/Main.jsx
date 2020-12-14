@@ -1,6 +1,6 @@
 import React from "react";
 import img from "../../assets/images/img-sec-main-cards.svg"
-import imgMobile from "../../assets/images/img-sec-main-right.svg"
+import imgMobile from "../../assets/images/img-sec-main-right.png"
 import {Link} from "react-scroll";
 
 export const Main = () => {

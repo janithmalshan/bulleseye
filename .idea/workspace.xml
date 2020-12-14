@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="04985a96-19da-49af-8c67-9174d680b57c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/img-sec-main-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeElements/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeElements/Slider.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,7 @@
       <workItem from="1607530442421" duration="698000" />
       <workItem from="1607546393702" duration="2383000" />
       <workItem from="1607592050025" duration="2175000" />
-      <workItem from="1607976099887" duration="908000" />
+      <workItem from="1607976099887" duration="1731000" />
     </task>
     <servers />
   </component>
@@ -148,10 +146,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="788" y="232" key="RollbackChangesDialog/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607168452084" />
-    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1607513444300">
+    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1607977934053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607513444300" />
+    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1607977934053" />
     <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606916418552" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1606492977258">
       <screen x="0" y="0" width="1920" height="1040" />
